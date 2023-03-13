@@ -29,3 +29,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 Route::get('/users/List',[UserController::class,'index'])->middleware('auth');
+Route::delete('/users/{id}',[UserController::class,'destroy'])->middleware('auth');

@@ -9,7 +9,16 @@ import 'bootstrap';
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
 
+
+try {
+    window.Popper = require('popper.js').default;
+    window.$ = window.jQuery = require('jquery');
+
+    require('bootstrap');
+}catch(e) {}
+
 import axios from 'axios';
+import getWindowScrollBarX from "@popperjs/core/lib/dom-utils/getWindowScrollBarX";
 window.axios = axios;
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';

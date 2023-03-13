@@ -14,7 +14,7 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <!-- Scripts -->
-    <?php echo app('Illuminate\Foundation\Vite')(['resources/sass/app.scss', 'resources/js/app.js']); ?>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div id="app">
@@ -80,6 +80,11 @@
             <?php echo $__env->yieldContent('content'); ?>
         </main>
     </div>
+    <?php echo app('Illuminate\Foundation\Vite')(['resources/sass/app.scss', 'resources/js/app.js']); ?>
+    <script type="text/javascript">
+        <?php echo $__env->yieldContent('javascript'); ?>
+    </script>
+
 </body>
 </html>
 <?php /**PATH C:\Laravel\project\laravelYT\resources\views/layouts/app.blade.php ENDPATH**/ ?>

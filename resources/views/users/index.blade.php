@@ -20,7 +20,11 @@
             <td>{{$user->email}}</td>
             <td>{{$user->name}}</td>
             <td>{{$user->surname}}</td>
-            <td>{{$user->phone_number}}</td>
+            <td>
+                <button
+                    class="btn btn-danger btn-sm delete" data-id="{{$user->id}}">X
+                </button>
+            </td>
         </tr>
         <tr>
         @endforeach
@@ -29,3 +33,20 @@
         {{ $users->links() }}
     </div>
 @endsection
+@section('javascript')
+    $( document ).ready(function() {
+    $('.delete').click(function(){
+        $.ajax({
+            method: "DELETE",
+            url: "http://laravel.test/users/" + $(this).data("id")
+           // data: { id:$(this).data("id")}
+    })
+        .done(function( response ) {
+         window.location.reload();
+            })
+        .fail(function (response){
+            alert ("Error")
+                });
+        });
+    });
+    @endsection
