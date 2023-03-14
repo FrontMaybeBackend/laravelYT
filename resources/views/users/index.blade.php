@@ -34,9 +34,11 @@
     </div>
 @endsection
 @section('javascript')
+
     $( document ).ready(function() {
     $('.delete').click(function(){
-        $.ajax({
+        Swal.fire("hello world");
+       /*$.ajax({
             method: "DELETE",
             url: "http://laravel.test/users/" + $(this).data("id")
            // data: { id:$(this).data("id")}
@@ -47,6 +49,7 @@
         .fail(function (response){
             alert ("Error")
                 });
+    */
         });
     });
     @endsection
