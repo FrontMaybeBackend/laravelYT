@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use Exception;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
@@ -29,40 +32,59 @@ class ProductController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(Request $request):RedirectResponse
     {
-        //
+        $product = new Product($request->all());
+        $product->save();
+        return redirect(route('products.index'));
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(Product $product)
+    public function show(Product $product) :View
     {
-        //
+        return view("products.show",[
+            'product' => $product
+        ]);
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Product $product)
+    public function edit(Product $product):View
     {
-        //
+        return view('products.edit',[
+            'product' => $product
+        ]);
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Product $product)
+    public function update(Request $request, Product $product): RedirectResponse
     {
-        //
+        $product ->fill($request->all());
+        $product->save();
+        return redirect(route('products.index'));
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Product $product)
+    public function destroy(Product $product) :JsonResponse
     {
-        //
+        try {
+            $product->delete();
+            return response()->json([
+                'status' => 'success'
+            ]);
+        }catch (Exception $e){
+            return response()->json([
+                'status'=>'error',
+                'message'=>'Wystąpił błąd'
+
+            ])->setStatusCode(code: 500);
+        }
     }
 }

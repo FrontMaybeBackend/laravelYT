@@ -34,6 +34,12 @@
             <td>{{$product->amount}}</td>
             <td>{{$product->price}}</td>
             <td>
+                <a class="float-end" href="{{ route('products.show', $product->id) }}">
+                    <button type="button" class="btn btn-primary">P</button>
+                </a>
+                <a class="float-end" href="{{ route('products.edit', $product->id) }}">
+                    <button type="button" class="btn btn-danger">Edytuj</button>
+                </a>
                 <button
                     class="btn btn-danger btn-sm delete" data-id="{{$product->id}}">X
                 </button>
@@ -52,7 +58,7 @@
     $('.delete').click(function(){
         $.ajax({
                 method: "DELETE",
-                url: "{{ url('$products') }}/" + $(this).data("id"),
+                url: "{{ url('products') }}/" + $(this).data("id"),
                   data: { id:$(this).data("id")}
      })
                 .done(function( response ) {
