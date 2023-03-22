@@ -6,42 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b7032ef1-d408-47a3-97c3-b9bb3489d49b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/immutable/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/immutable/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.es.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.js.flow" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/immutable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/immutable/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/bin/rollup" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/bin/rollup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/es/rollup.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/es/rollup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/es/shared/node-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/es/shared/node-entry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/es/shared/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/es/shared/watch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/loadConfigFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/loadConfigFile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/rollup.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/rollup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/shared/fsevents-importer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/shared/fsevents-importer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/shared/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/shared/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/shared/loadConfigFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/shared/loadConfigFile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/shared/rollup.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/shared/rollup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/shared/watch-cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/shared/watch-cli.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/shared/watch-proxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/shared/watch-proxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/shared/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/shared/watch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/sass.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass/sass.dart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/sass.default.dart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/sass.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass/sass.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/2e948966d348cddf630fd7cfa1655674.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/2e948966d348cddf630fd7cfa1655674.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +156,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Laravel/project/laravelYT&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -228,7 +198,13 @@
       <workItem from="1678720603147" duration="3623000" />
       <workItem from="1678741527013" duration="7124000" />
       <workItem from="1678805374681" duration="4418000" />
-      <workItem from="1678829660379" duration="108000" />
+      <workItem from="1678829660379" duration="784000" />
+      <workItem from="1678878288541" duration="114000" />
+      <workItem from="1678967149478" duration="1608000" />
+      <workItem from="1679051505740" duration="163000" />
+      <workItem from="1679152332591" duration="240000" />
+      <workItem from="1679166635082" duration="135000" />
+      <workItem from="1679495525425" duration="1734000" />
     </task>
     <servers />
   </component>

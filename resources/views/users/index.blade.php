@@ -37,19 +37,19 @@
 
     $( document ).ready(function() {
     $('.delete').click(function(){
-        Swal.fire("hello world");
-       /*$.ajax({
-            method: "DELETE",
-            url: "http://laravel.test/users/" + $(this).data("id")
-           // data: { id:$(this).data("id")}
+        $.ajax({
+                method: "DELETE",
+                url: "{{ url('users') }}/" + $(this).data("id"),
+                  data: { id:$(this).data("id")}
+     })
+                .done(function( response ) {
+                window.location.reload();
     })
-        .done(function( response ) {
-         window.location.reload();
-            })
-        .fail(function (response){
-            alert ("Error")
-                });
-    */
-        });
+    .fail(function (response){
+    alert ("Error")
     });
-    @endsection
+
+    });
+    });
+
+@endsection
