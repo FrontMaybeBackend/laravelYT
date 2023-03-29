@@ -34,14 +34,14 @@
             <td>{{$product->amount}}</td>
             <td>{{$product->price}}</td>
             <td>
-                <a class="float-end" href="{{ route('products.show', $product->id) }}">
+                <a class="" href="{{ route('products.show', $product->id) }}">
                     <button type="button" class="btn btn-primary">P</button>
                 </a>
-                <a class="float-end" href="{{ route('products.edit', $product->id) }}">
-                    <button type="button" class="btn btn-danger">Edytuj</button>
+                <a class="" href="{{ route('products.edit', $product->id) }}">
+                    <button type="button" class="btn btn-info">E</button>
                 </a>
                 <button
-                    class="btn btn-danger btn-sm delete" data-id="{{$product->id}}">X
+                    class="  btn btn-danger  delete" data-id="{{$product->id}}">X
                 </button>
             </td>
         </tr>
