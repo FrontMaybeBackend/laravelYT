@@ -1,66 +1,51 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+SimpleCRM - ReadMe
+Welcome to SimpleCRM! This application allows you to create, delete, update, and view customer and project data. You can also assign new projects to registered users and created customers. Below you will find information regarding the configuration, features, and usage of this application.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Technologies
+Our application utilizes the following technologies:
 
-## About Laravel
+PHP: The server-side programming language responsible for handling the application's business logic.
+MySQL: The relational database management system that stores customer, project, and user data.
+Bootstrap: The CSS framework that provides a responsive and visually appealing user interface.
+Laravel: The PHP framework that provides tools and structure for building web applications.
+Configuration
+Before running the application, ensure that you meet the following requirements:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Install PHP on your server or local machine. You can download PHP from the php.net website.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Install MySQL or use an available MySQL server.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Install Composer, a dependency management tool for PHP. You can download Composer from getcomposer.org.
 
-## Learning Laravel
+Clone the repository of our application from repository-url or download the application source code from your-website.com.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Navigate to the project directory and run the command composer install to install all the application's dependencies.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Configure the MySQL database connection in the .env file located in the project directory. Enter the appropriate credentials (host, username, password, etc.).
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Run the database migrations by executing the command php artisan migrate to create the necessary tables in the database.
 
-## Laravel Sponsors
+Start the local PHP server, for example, by running the command php artisan serve. The application will be accessible at http://localhost:8000.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Functionality Guide
+Once the application is configured, you can start using its features. Here is an overview of the available functionality:
 
-### Premium Partners
+Customer Management:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Create a new customer by providing the necessary contact information.
+Display a list of existing customers.
+Update customer data such as name, address, phone number, etc.
+Delete a customer from the database.
+Project Management:
 
-## Contributing
+Create a new project and assign it to a customer and user.
+Display a list of existing projects.
+Update project details such as name, description, deadline, etc.
+Delete a project from the database.
+User Management:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Register a new user by providing required details such as email and password.
+Log in to the application using valid credentials.
+Log out from the application.
+Summary
+Our web application for customer and project management provides a convenient and efficient way to handle customer and project data. With its user-friendly interface and utilization of popular web technologies, the application offers ease of use and flexibility for customization to individual needs.
